@@ -49,7 +49,7 @@
         gif: gif {
             label = "giphy";
             compatible = "zmk,behavior-macro";
-            #binding-cells = ;
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_tap &kp N2>
